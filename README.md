@@ -1,7 +1,7 @@
-COVID-19 Data Exploration and Visualization
+📊 # COVID-19 Data Exploration and Visualization
 This project explores global COVID-19 data using SQL Server and presents insights via Tableau Public dashboards. The dataset includes infection rates, death counts, population statistics, and vaccination trends.
 
-🔍 SQL Analysis Overview
+🔍 ## SQL Analysis Overview
 The SQL queries in this project cover:
 
 Basic filtering and sorting of COVID-19 cases and deaths
@@ -28,7 +28,7 @@ View creation for reusable queries
 
 Queries used in Tableau visualizations to power key dashboard metrics
 
-📈 Tableau Dashboard
+📈 ## Tableau Dashboard
 A Tableau Public dashboard was created based on the above queries, featuring:
 
 Global COVID statistics
