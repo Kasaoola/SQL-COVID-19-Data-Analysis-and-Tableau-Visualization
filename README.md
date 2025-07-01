@@ -5,8 +5,8 @@ This project explores global COVID-19 data using SQL Server and presents insight
 1. The SQL queries in this project cover: Basic filtering and sorting of COVID-19 cases and deaths
 
 2. Comparative analysis:
-  - Total Cases vs Total Deaths (to compute mortality rate)
-  - Total Cases vs Population (to calculate infection percentage)
+   - Total Cases vs Total Deaths (to compute mortality rate)
+   - Total Cases vs Population (to calculate infection percentage)
 
 3. Identifying high-impact countries:
   - Countries with the highest infection or death rates
