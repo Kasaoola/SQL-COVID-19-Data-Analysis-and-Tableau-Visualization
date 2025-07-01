@@ -2,41 +2,37 @@
 This project explores global COVID-19 data using SQL Server and presents insights via Tableau Public dashboards. The dataset includes infection rates, death counts, population statistics, and vaccination trends.
 
 ## 🔍 SQL Analysis Overview
-The SQL queries in this project cover:
+1. The SQL queries in this project cover: Basic filtering and sorting of COVID-19 cases and deaths
 
-Basic filtering and sorting of COVID-19 cases and deaths
+2. Comparative analysis:
 
-Comparative analysis:
+- Total Cases vs Total Deaths (to compute mortality rate)
 
-Total Cases vs Total Deaths (to compute mortality rate)
+- Total Cases vs Population (to calculate infection percentage)
 
-Total Cases vs Population (to calculate infection percentage)
+3. Identifying high-impact countries:
 
-Identifying high-impact countries:
+- Countries with the highest infection or death rates
 
-Countries with the highest infection or death rates
+- Continent-wise breakdown of total deaths
 
-Continent-wise breakdown of total deaths
+4. Rolling vaccination tracking using:
 
-Rolling vaccination tracking using:
+- CTEs (Common Table Expressions)
 
-CTEs (Common Table Expressions)
+- Temporary tables
 
-Temporary tables
-
-View creation for reusable queries
-
-Queries used in Tableau visualizations to power key dashboard metrics
+5. View creation for reusable queries: Queries used in Tableau visualizations to power key dashboard metrics
 
 ## 📈 Tableau Dashboard
 A Tableau Public dashboard was created based on the above queries, featuring:
 
-Global COVID statistics
+- Global COVID statistics
 
-Top countries by death count
+- Top countries by death count
 
-Infection percentages by population
+- Infection percentages by population
 
-Daily trends over time
+- Daily trends over time
 
 **🔗 View the live dashboard here:** https://public.tableau.com/app/profile/aavash.shrestha/viz/CovidDashboard_17513814514670/Dashboard1?publish=yes
