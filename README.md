@@ -5,6 +5,8 @@ This project explores global COVID-19 data using SQL Server and presents insight
 The data used in this project was sourced from Our World in Data, available at:
 🔗 https://ourworldindata.org/covid-deaths
 
+The used data in this project ranges from : June 2020 to March 2021
+
 The dataset provides global COVID-19 statistics, updated regularly and compiled from official public health sources. For this analysis, the data was divided into two main tables:
 
 1. CovidDeaths: Contains information such as location, date, total cases, new cases, total deaths, population, and continent.
