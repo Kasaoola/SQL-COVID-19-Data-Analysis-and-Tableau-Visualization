@@ -94,3 +94,29 @@ join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null
 
 select * from PercentPopulationVaccinated
+
+-- queries used for Tableau Project
+-- 1. Global Numberse
+select sum(new_cases) as total_cases, sum(cast(new_deaths as int)) as total_deaths, sum(cast(new_deaths as int))/sum(new_cases)*100 as DeathPerrcentage from PortfolioProject..CovidDeaths
+where continent is not null
+order by 1,2
+
+-- 2. Total deaths in a continent
+select location, sum(cast(new_deaths as int)) as TotalDeathCount 
+from PortfolioProject..CovidDeaths
+where continent is null
+and location not in ('World', 'European Union', 'International')
+group by location
+order by TotalDeathCount desc
+ 
+-- 3. Percentage of population affected
+select location, population, max(total_cases) as HighestInfectionCount, max(total_cases/population)*100 as PercentagePopulationInfected
+from PortfolioProject..CovidDeaths
+group by location, population
+order by PercentagePopulationInfected desc
+
+-- 4. Percentage population affected with 'date'
+select location, population, date, max(total_cases) as HighestInfectionCount, max(total_cases/population)*100 as PercentagePopulationInfected
+from PortfolioProject..CovidDeaths
+group by location, population, date
+order by PercentagePopulationInfected desc
