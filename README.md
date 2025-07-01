@@ -6,21 +6,21 @@ This project explores global COVID-19 data using SQL Server and presents insight
 
 2. Comparative analysis:
 
-- Total Cases vs Total Deaths (to compute mortality rate)
+  - Total Cases vs Total Deaths (to compute mortality rate)
 
-- Total Cases vs Population (to calculate infection percentage)
+  - Total Cases vs Population (to calculate infection percentage)
 
 3. Identifying high-impact countries:
 
-- Countries with the highest infection or death rates
+  - Countries with the highest infection or death rates
 
-- Continent-wise breakdown of total deaths
+  - Continent-wise breakdown of total deaths
 
 4. Rolling vaccination tracking using:
 
-- CTEs (Common Table Expressions)
+  - CTEs (Common Table Expressions)
 
-- Temporary tables
+  - Temporary tables
 
 5. View creation for reusable queries: Queries used in Tableau visualizations to power key dashboard metrics
 
