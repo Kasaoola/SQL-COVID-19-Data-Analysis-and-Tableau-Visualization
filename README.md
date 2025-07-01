@@ -1,6 +1,16 @@
 # 📊 COVID-19 Data Exploration and Visualization
 This project explores global COVID-19 data using SQL Server and presents insights via Tableau Public dashboards. The dataset includes infection rates, death counts, population statistics, and vaccination trends.
 
+# 📁 Dataset Information
+The data used in this project was sourced from Our World in Data, available at:
+🔗 https://ourworldindata.org/covid-deaths
+
+The dataset provides global COVID-19 statistics, updated regularly and compiled from official public health sources. For this analysis, the data was divided into two main tables:
+
+1. CovidDeaths: Contains information such as location, date, total cases, new cases, total deaths, population, and continent.
+
+2. CovidVaccinations: Includes columns for daily and cumulative vaccinations, vaccine types, and other immunization statistics.
+
 ## 🔍 SQL Analysis Overview
 1. The SQL queries in this project cover: Basic filtering and sorting of COVID-19 cases and deaths
 
